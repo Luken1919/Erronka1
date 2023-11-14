@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  background:  url("https://img.freepik.com/vector-gratis/zoom-velocidad-tubo-luz-azul-abstracto-tecnologia-fondo-negro_1142-9120.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699747200&semt=ais" ) 0 0  repeat-x;
+  background-color: #272424;
+  font: 100%/160% "verdana", sans-serif;
+  color: #000000;
+}
+
+
+p {
+  margin: 0em 0;
+  padding: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 1em 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 260%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 180%;
+  font-family: "georgia", serif;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+ul, ol {
+  margin: 1em 0 1em 2em;
+  padding: 0;
+}
+
+#menu {
+
+  padding: 10px 0 0 0;
+
+}
+
+#menu ul {
+  margin: 0 93px;
+  padding: 0;
+  list-style:none;
+}
+
+#menu ul li {
+  margin: 0 5px 0 0;
+  padding: 0;
+  float:left;
+}
+
+#menu ul li a {
+  display: block;
+  position: relative;
+  padding: 5px 15px;
+  border: 0;
+  background: #4d4d4e;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#menu ul li.seleccionado a {
+  background: #FFF;
+  color: #000000;
+}
+
+#contenedor {
+  width: 100%; /* Cambiamos de 770px a 100% */
+  margin: 0;
+}
+
+#cabecera {
+  width: 100%; /* mover logo kobaz*/
+  position: relative;
+  height: 100px;
+
+  margin: 0;
+  padding: 0;
+
+  color: #000000;
+}
+
+#contenido {
+  width: 100%; /* Cambiamos de 760px a 100% */
+  margin: 0;
+  background: #FFF;   /*fondo*/
+}
+
+#contenido #principal {
+  float: left;
+  width: 70%; /* Cambiamos de 530px a 70% */
+  margin-top: 15px;
+  padding: 0 0 0 5%; /* Ajustamos el padding izquierdo */
+  background: #ffffff;    /*fondo Div*/
+}
+
+#contenido #secundario {
+  
+  float: left;
+  width: 30%; /* Cambiamos de 200px a 30% */
+  margin: 15px 0 0 0;
+  padding: 0;
+
+}
+
+#pie {
+  color: #FFF;
+}
