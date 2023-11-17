@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background:  url("https://img.freepik.com/vector-gratis/zoom-velocidad-tubo-luz-azul-abstracto-tecnologia-fondo-negro_1142-9120.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1699747200&semt=ais" ) 0 0  repeat-x;
+ 
   background-color: #272424;
   font: 100%/160% "verdana", sans-serif;
   color: #000000;
@@ -82,6 +82,34 @@ ul, ol {
 #contenedor {
   width: 100%; /* Cambiamos de 770px a 100% */
   margin: 0;
+  background:  url("https://media.istockphoto.com/id/1132628790/es/vector/fondo-de-tecnolog%C3%ADa-blockchain.jpg?s=1024x1024&w=is&k=20&c=GsWOvLXGV_kDHS_7-3BHEPWhWGfq9uRgqGd3NQkQ3n0=" ) 0 0  repeat-x;
+}
+
+#contenedorBI{
+  width: 100%; /* Cambiamos de 770px a 100% */
+  margin: 0;
+  background:  url("https://media.istockphoto.com/id/1401364383/es/vector/patr%C3%B3n-geom%C3%A9trico-con-cubos-experiencia-tecnol%C3%B3gica-ilustraci%C3%B3n-vectorial.jpg?s=1024x1024&w=is&k=20&c=PEZPhqaZ_GTLdvQF7bIPA4b26mrlcXwz4Yw__ArBBb0=") 0 0  repeat-x;
+
+}
+
+#contenedorHIRU{
+  width: 100%; /* Cambiamos de 770px a 100% */
+  margin: 0;
+  background:  url("https://media.istockphoto.com/id/1195895643/es/vector/fondo-corporativo-grunge-negro-con-l%C3%ADneas-doradas.jpg?s=612x612&w=0&k=20&c=kr4pj5mECaSHBMYCeH5m7p-7Rm_NBRAjulLThhmdjMU=") 0 0  repeat-x;
+
+}
+
+#contenedorLAU{
+  width: 100%; /* Cambiamos de 770px a 100% */
+  margin: 0;
+  background:  url("https://media.istockphoto.com/id/1411961227/es/vector/patr%C3%B3n-negro-sin-costuras-con-formas-de-tri%C3%A1ngulos.jpg?s=1024x1024&w=is&k=20&c=MqADwtgSJ-jEyZQ_37L2mqa7czYz26yZhAXz1R7Wv2s=") 0 0  repeat-x;
+
+}
+#contenedorBOST{
+  width: 100%; /* Cambiamos de 770px a 100% */
+  margin: 0;
+  background:  url("https://st4.depositphotos.com/41691762/41882/v/450/depositphotos_418821626-stock-illustration-grey-streak-black-wallpaper-abstract.jpg") 0 0  repeat-x;
+
 }
 
 #cabecera {
@@ -135,7 +163,7 @@ ul, ol {
   opacity: 0;
   position: absolute;
   top: 0;
-  left: 110%;
+  left: 130%;
   background-color: #fff;
   padding: 10px;
   border: 1px solid #ccc;
@@ -145,4 +173,38 @@ ul, ol {
 
 .elemento:hover .texto-adicional {
   opacity: 1;
+}
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1.2fr 1.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Zerbitzuak Zerbitzuak"
+    "bat Bi"
+    "hiru Lau";
+}
+
+.Zerbitzuak { grid-area: Zerbitzuak; }
+
+.bat { grid-area: bat; }
+
+.Bi { grid-area: Bi; }
+
+.hiru { grid-area: hiru; }
+
+.Lau { grid-area: Lau; }
+
+table{
+    width: 1500px;
+
+}
+td,th {
+  padding: 5em;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+th{ 
+  color: #FFF;
+  background-color: #0e0d0d;
 }
