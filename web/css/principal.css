@@ -208,3 +208,16 @@ th{
   color: #FFF;
   background-color: #0e0d0d;
 }
+
+.articulo1{
+  display: flex;
+}
+
+.irudia{
+  margin-right: 50px ;
+}
+
+.irudia1{
+  margin-left: 50px ;
+}
+
