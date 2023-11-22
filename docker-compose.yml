@@ -5,7 +5,7 @@ services:
     volumes:
     - ./web:/usr/share/nginx/html
     ports:
-    - "8080:81"
+    - "8082:80"
     environment:
     - NGINX_HOST=kobaz.com
     - NGINX_PORT=80
