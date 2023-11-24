@@ -42,6 +42,7 @@ h3 {
 ul, ol {
   margin: 1em 0 1em 2em;
   padding: 0;
+  
 }
 
 #menu {
@@ -136,7 +137,26 @@ ul, ol {
   padding: 0 0 0 5%; /* Ajustamos el padding izquierdo */
   background: #ffffff;    /*fondo Div*/
 }
+#contenido1 {
+  width: 100%; /* Cambiamos de 760px a 100% */
+  margin: 0;
+  background: #FFF;   /*fondo*/
+}
+#contenido1 #principal1 {
+  float: left;
+  width: 70%; /* Cambiamos de 530px a 70% */
+  margin-top: 15px;
+  padding: 0 0 0 5%; /* Ajustamos el padding izquierdo */
+  background: #ffffff;    /*fondo Div*/
+}
+#contenido1 #secundario {
+  
+  float: left;
+  width: 30%; /* Cambiamos de 200px a 30% */
+  margin: 15px 0 0 0;
+  padding: 0;
 
+}
 #contenido #secundario {
   
   float: left;
